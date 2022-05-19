@@ -9,6 +9,9 @@ py-numpy - necessary for data science
 py-pandas 
 py-matplotlib - Graphing packages
 
+I had to add py-pandas and py-matplotlib seperately (I used *spack add py-matplotlib* and *spack add py-pandas*. I then got the yaml file from _~/spack/var/environments/msds/spack.yml_ file)
+
+
 ## Target
 Target is broadwell, which is the latest Intel Xeon Chip. We can build for other environments, but broadwell is more recent.
 
