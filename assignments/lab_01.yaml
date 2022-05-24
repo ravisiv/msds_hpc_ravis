@@ -1,0 +1,15 @@
+spack:
+  config:
+    install_missing_compilers: true
+  view: true
+  definitions:
+  - compilers: [gcc@11.2.0]
+  - packages: [openblas threads=openmp, python@3.8.12, py-numpy+blas+lapack]
+  - targets: [target=broadwell]
+  specs:
+  - matrix:
+    - [$%compilers]
+    - [$packages]
+    - [$targets]
+  - py-pandas
+  - py-matplotlib
