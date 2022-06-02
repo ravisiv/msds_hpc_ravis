@@ -9,7 +9,7 @@ Then have a graph of interconnected nodes (like wordnet with interconnected word
 The idea is, that phishing will more often be a link that’s not linked to each other (other than in public posts (social media) or amazon review sites.
 Likewise, when getting those several hundred million or billion URLs (whichever is acceptable, I want to visit each of those websites, scan for open ports, SSL certificates, etc. 
  
-Likewise, the headers, I want to analyze the headers (email headers) as a complex number (x+iy), as they are somehow linked, and I don’t want the neural network to break them apart if they were just two features.
+Likewise, the headers, I want to analyze the headers (email headers) as a complex number (x+iy), as they are somehow linked, and I don’t want the neural network to break them apart if they were just two independent features.
 
 ## Tools
 Python/Go lang
