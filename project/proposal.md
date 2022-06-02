@@ -7,7 +7,7 @@ My project is Phishing Detection, in which we are using a multi-faceted approach
 First, I have a list of (about 5000) top and trusted websites. Then scan each website (also confirmed mails from such corporations) and then scan for all URLs on the website/email. Then use each of those websites, and scan the next set of websites, and then with each of that scan more and so on. This will create a trusted network of websites that will grow to several billion (until it reaches a billion URLs or so).
 Then have a graph of interconnected nodes (like wordnet with interconnected words), I want to have a trusted net of interconnected URLs. Each layer weakens the trust (like each layer reduces trust by a square number, which will increasingly weaken the link as it goes deeper, for example.
 The idea is, that phishing will more often be a link that’s not linked to each other (other than in public posts (social media) or amazon review sites.
-Likewise, when getting those several hundred million or billion URLs (whichever is acceptable, I want to visit each of those websites, scan for open ports, SSL certificates, etc. Will that be too much for my project?
+Likewise, when getting those several hundred million or billion URLs (whichever is acceptable, I want to visit each of those websites, scan for open ports, SSL certificates, etc. 
  
 Likewise, the headers, I want to analyze the headers (email headers) as a complex number (x+iy), as they are somehow linked, and I don’t want the neural network to break them apart if they were just two features.
 
