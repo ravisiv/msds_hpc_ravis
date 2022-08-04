@@ -5,7 +5,7 @@ spack:
   definitions:
   - compilers: [gcc@11.2.0]
   - packages: [openblas threads=openmp, python@3.8.12, py-numpy+blas+lapack]
-  - targets: [target=broadwell]
+  - targets: [target=broadwell, target=x86_64v3]
   specs:
   - matrix:
     - [$%compilers]
